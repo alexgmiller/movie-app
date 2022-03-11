@@ -2,7 +2,12 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
+# actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
+# actor.save
+actor = Actor.new({first_name: "Tom", last_name: "Holland", known_for: "Spider-man"})
 actor.save
+actor = Actor.new({first_name: "Leonardo", last_name: "DiCaprio", known_for: "Titanic"})
+actor.save
+
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
