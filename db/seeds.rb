@@ -8,7 +8,7 @@
 # actor.save
 # actor = Actor.new({first_name: "Leonardo", last_name: "DiCaprio", known_for: "Titanic"})
 # actor.save
-movie = Movie.new({title: "Titanic", year: 1997, plot:"Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the 'ship of dreams' -- which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912."})
+movie = Movie.new({title: "The Batman", year: 2022, plot:"Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues. As the evidence begins to lead closer to home and the scale of the perpetrator's plans become clear, he must forge new relationships, unmask the culprit and bring justice to the abuse of power and corruption that has long plagued the metropolis.", director: "Matt Reeves"})
 movie.save
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)

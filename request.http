@@ -1,0 +1,26 @@
+### PRODUCTS CREATE
+POST http://localhost:3000/movies
+content-type: application/json
+
+{
+   "title": "keyboard",
+   "year": 60,
+   "plot": "keyboard.jpg",
+   "director": "A mechanical keyboard"
+}
+### PRODUCTS INDEX
+GET http://localhost:3000/movies
+
+### PRODUCTS SHOW
+GET http://localhost:3000/movies/1
+
+### PRODUCTS UPDATE
+PATCH http://localhost:3000/movies/1
+Content-Type: application/json
+
+{
+   
+   "director": "Matt Reeves"
+}
+### PRODUCTS DESTROY
+DELETE http://localhost:3000/localhost:3000/product/1
