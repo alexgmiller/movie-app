@@ -12,6 +12,7 @@ patch "/movies/:id" => "movies#update"
 delete "/movies/:id" => "movies#destroy"
 post "/users" => "users#create"
 post "/sessions" => "sessions#create"
+post "/movie_genre" => "movie_genres#create"
   # Defines the root path route ("/")
   # root "articles#index"
 end
