@@ -1,0 +1,19 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="moviesIndex.js" defer></script>
+<div class="home">
+  <h1>All Movies</h1>
+    <div v-for="movie in movies" v-bind:key="movie.id">
+      <h2>
+        {{ movie.title}}
+      </h2>
+      <h2>
+        {{ movie.year}}
+      </h2>
+      <h2>
+        {{ movie.plot}}
+      </h2>
+      <h2>
+        {{ movie.director}}
+      </h2>
+    </div>
+</div>
